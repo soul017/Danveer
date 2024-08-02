@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+
+  padding-top: 70px;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #343a40;
+  text-align: center;
+}
+
+#input {
+  width: 80%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #ced4da;
+  outline-style: none;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.searchbtn {
+  display: block;
+  margin: 0 auto 2px auto;
+  padding: 7px 7px;
+  font-size: 1em;
+  color: rgb(47, 47, 47);
+  background-color: #b1cfee;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 10%;
+  outline-style: none;
+  transition: background-color 0.3s;
+}
+
+.searchbtn:hover {
+  background-color: #bedaf7;
+}
+
+#output {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  padding: 20px;
+}
+
+.book-container {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.book-title {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  color: black;
+  margin: 0;
+}
+
+.book-author {
+  font-size: 1.2em;
+  color: #53595f;
+  margin: 10px 0;
+}
+
+.book-cover {
+  max-width: 200px;
+  margin: 10px 0 10px 0;
+  border-radius: 10px;
+}
+footer {
+  padding: 20px 0;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+}

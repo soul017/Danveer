@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="donate.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="./assets/logo.jpg" height="45">
+            </a>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ml-5 mb-2 mb-lg-0">
+                    <button class="nav-link  btn2" id="homeButton">Home</button>
+                    <button class="nav-link  btn2" id="libraryButton">Library</button>
+                    <button class="nav-link btn2" id="aboutButton">About us</button>
+                    <button class="nav-link  btn2" id="contactButton">Contact us</button>
+
+                </ul>
+
+            </div>
+    </nav>
+    <main>
+        <div class="donate-section-heading">
+            <h1>Donate and pass the key of knowledge</h1>
+        </div>
+        <section class="donate-section">
+            <form class="donate-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="address">Full Address:</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="genre">Genre Of Book:</label>
+                <input type="text" id="genre" name="genre" required>
+
+                <label for="books">Total number of books:</label>
+                <input type="number" id="books" name="books" required>
+
+                <button type="submit" class="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container text-center ">
+            <p>&copy; 2024 Danveer. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
