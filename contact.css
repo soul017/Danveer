@@ -126,7 +126,7 @@ footer {
 @media (max-width: 1062px) {
   .container {
     width: 95%;
-    margin: 50px auto;
+    margin: 70px auto;
   }
 
   .btn1 {
@@ -165,7 +165,7 @@ footer {
 
 @media (max-width: 480px) {
   .container {
-    margin: 20px auto;
+    margin: 70px auto;
   }
 
   h2 {
