@@ -1,0 +1,196 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(./assets/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* margin: 0; */
+  padding: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.bacimg {
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.navbar {
+  background-color: #bedaf7;
+  padding: 10px 20px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  color: #2b3f62;
+  font-size: larger;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  color: #c5afb4;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input,
+textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: transparent;
+  border: 1.5px solid #aba5a5;
+  border-radius: 15px;
+  outline-style: none;
+}
+
+.btn1 {
+  background-color: #dee8fa;
+  font-size: larger;
+  border-radius: 40px;
+  margin-right: 50px;
+  padding: 10px;
+  cursor: pointer;
+  width: 13%;
+  text-align: center;
+}
+
+.btn1:hover {
+  background-color: #b7d1ec;
+  color: white;
+}
+
+button,
+.submit {
+  padding: 10px 15px;
+  color: rgb(14, 11, 11);
+  background-color: transparent;
+  cursor: pointer;
+  border: 1.5px solid #aba5a5;
+  border-radius: 20px;
+  font-size: larger;
+}
+
+button,
+.submit:hover {
+  background-color: #c1c4c1;
+}
+
+#successMessage {
+  text-align: center;
+  color: rgb(97, 103, 127);
+  margin-top: 12px;
+  font-size: x-large;
+}
+
+p {
+  text-align: center;
+  margin-top: 1px;
+}
+
+footer {
+  background-color: #bedaf7;
+  height: 50px;
+  padding: 10px;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 1062px) {
+  .container {
+    width: 95%;
+    margin: 70px auto;
+  }
+
+  .btn1 {
+    width: auto;
+    margin-right: 0;
+  }
+
+  p {
+    margin-top: 5px;
+  }
+
+  
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .nav-link {
+    font-size: medium;
+    margin: 0 5px;
+  }
+  
+
+  .btn1 {
+    width: auto;
+    margin-right: 0;
+  }
+
+  form {
+    padding: 10px;
+  }
+
+  #successMessage {
+    font-size: large;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 70px auto;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .nav-link {
+    font-size: small;
+  }
+
+  input,
+  textarea {
+    padding: 8px;
+  }
+
+  button,
+  .submit {
+    font-size: medium;
+    padding: 8px 10px;
+  }
+
+  footer {
+    height: auto;
+  }
+}
